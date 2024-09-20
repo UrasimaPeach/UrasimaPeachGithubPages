@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  urasima_peach_github_page:
+    build: ./docker/main/
+    volumes:
+      - .:/app
+      - ./vim:/root/.vim
+      - ./vimrc:/root/.vimrc
+    ports:
+      - "8080:3000"
+    image: urasima_peach_github_page:latest
