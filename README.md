@@ -88,6 +88,20 @@ cd urasima-peach-github-page
 npm run build
 ```
 
+### デプロイ手順
+
+ビルドしたコードをUrasimaPeach.github.ioをcloneしたリポジトリに移し、pushする。
+下記は`../UrasimaPeach`にUrasimaPeach.github.ioのリポジトリがcloneされている場合の例。
+
+```
+rm -r ../UrasimaPeach/*
+cp -r urasima-peach-github-page/build/* ../UrasimaPeach/
+cd ../UrasimaPeach
+git add .
+git commit -m "commit message"
+git push origin main
+```
+
 # LISCENCE
 
 MIT License
