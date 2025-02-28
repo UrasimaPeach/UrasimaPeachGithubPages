@@ -74,6 +74,20 @@ dockerk-compose down
 vim src/example.tsx
 ```
 
+#### 開発環境のページを開く
+
+```
+cd urasima-peach-github-page
+npm run start
+```
+
+#### コードをビルドする
+
+```
+cd urasima-peach-github-page
+npm run build
+```
+
 # LISCENCE
 
 MIT License

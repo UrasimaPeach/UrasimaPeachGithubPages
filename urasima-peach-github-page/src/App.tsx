@@ -9,6 +9,7 @@ function App() {
     <p><Link to="https://x.com/UrasimaPeach">UrasimaPeachのTwitter</Link></p>
     <p><Link to="https://github.com/UrasimaPeach">UrasimaPeachのGithub</Link></p>
     <p><Link to="/ygo/changeling-shield">遊戯王多相シールドのルール</Link></p>
+    <p><Link to="https://github.com/UrasimaPeach/UrasimaPeach.github.io/tree/main/static/js">使用ライブラリのライセンスは、こちらのmain.js.*.LICENSE.txtを参照してください。</Link></p>
     </div>
   );
 }
