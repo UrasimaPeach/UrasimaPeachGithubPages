@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import ThirdPartyLicenses from './ThirdPartyLicenses';
 import ChangelingShield from './ygo/ChangelingShield';
 import reportWebVitals from './reportWebVitals';
 import {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/third-party-licenses",
+    element: <ThirdPartyLicenses />,
   },
   {
     path: "/ygo/changeling-shield",

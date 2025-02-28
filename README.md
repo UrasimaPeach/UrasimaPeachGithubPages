@@ -76,6 +76,8 @@ vim src/example.tsx
 
 #### 開発環境のページを開く
 
+以下のコマンドを実行したあと、ブラウザでlocalhost:3000へアクセスする。
+
 ```
 cd urasima-peach-github-page
 npm run start
@@ -86,6 +88,14 @@ npm run start
 ```
 cd urasima-peach-github-page
 npm run build
+```
+
+#### 依存ライブラリのライセンスを出力する
+
+```
+cd urasima-peach-girhub-page
+npm install -g yarn # 基本的にnpmを使うが、ライセンスを出力するために一時的にyarnをコンテナにインストール
+yarn licenses generate-disclaimer > public/THIRD_PARTY_LICENSES.txt
 ```
 
 ### デプロイ手順
